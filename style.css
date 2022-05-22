@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+    width:100%;     
+}
+
+/*.media-menu{
+  background-image: url("agora-vai.png");
+  width: 100%;
+  height: 700px;
+  color: #ffffff;
+  
+}*/
+
+body{
+    
+    color: #faebd7;
+    background-color: #020101;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.apresentacao{
+  background-color: #ebe84c; 
+}
+
+.text-h2{
+  font-size: 2em;
+  font-weight: 700;
+  color: #020101;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.text-p{
+  color: #020101;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+  margin-top: 2px;
+  margin-left: 50px;
+  padding: 0 0 0 10px;
+}
+
+.botao-login{
+  display: inline-block;
+  font-size: 1em;
+  background:#020101;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color:#ebe84c;
+  letter-spacing: 2px;
+  transition: 0.2s;margin-left: 20px;                                   
+  letter-spacing: 6px;
+  border-radius: 3px;
+}
+
+#workout-man-gif{
+  display:block;
+  margin-left: 900px;
+  margin-top: -150px;
+  
+}
+
+
+.servicos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;  
+}
+
+
+.servicos li {   
+  position: inline-block;
+  width:  324px;
+  height: 450px;  
+  border-radius: 10px;
+  margin:0 1.5%;
+  padding: 50px 20px;  
+  color: #f8f4f4;
+  border: 3px solid #ebe84c;
+  text-align: center;
+  vertical-align: top;     
+}
+
+.servicos  :hover{
+  -webkit-transform: scale(1.0);
+  transform: scale(1.1);
+}
+
+
+.titulos{  
+  font-size: 22px;
+  font-weight: bold;
+  margin: auto;
+  padding: 0 0 10px 0;
+}
+
+
+.banners{  
+  height: 200px;
+  width: 200px; 
+}
+
+.servico-texto{
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 0 10px;
+}
+
+.button{
+  display: inline-block;
+  border: 2px solid #ebe84c;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 2px;  
+}
+
+footer{
+ 
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 40px 0;   
+}
+
+.logo-rodape{
+  width: 150px;
+  height: 150px;
+}
+
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
